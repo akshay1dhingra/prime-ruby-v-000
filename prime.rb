@@ -19,3 +19,5 @@ def primes(max_number)
   p integers
 
 end
+
+primes(30)
