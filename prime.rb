@@ -9,5 +9,5 @@ def primes(max_number)
   end
 
   p integers
-  
+
 end
