@@ -25,4 +25,6 @@ def primes(max_number)
 
 end
 
-primes(100)
+def prime?(num)
+  primes(num).include?(num)
+end
