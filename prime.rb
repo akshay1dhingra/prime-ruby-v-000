@@ -4,7 +4,7 @@ def primes(max_number)
   i = 2
 
   while i <= max_number
-    integers << i 
+    integers << i
     i = i + 1
   end
 
