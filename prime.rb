@@ -20,4 +20,4 @@ def primes(max_number)
 
 end
 
-primes(105557)
+primes(1000)
