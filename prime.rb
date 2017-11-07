@@ -28,3 +28,5 @@ end
 def prime?(num)
   primes(num).include?(num)
 end
+
+puts prime?(100)
