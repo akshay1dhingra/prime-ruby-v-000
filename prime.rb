@@ -11,9 +11,14 @@ def primes(max_number)
   index = 0
   multiplier = 2
 
-  while (integers[index] * multiplier) <= max_number
-    integers.delete(integers[index] * multiplier)
-    multiplier = multiplier + 1
+  while integers[index] != nil
+    while (integers[index] * multiplier) <= max_number
+      integers.delete(integers[index] * multiplier)
+      multiplier = multiplier + 1
+    end
+
+    index = index + 1
+    multiplier = 2
   end
 
   p integers
