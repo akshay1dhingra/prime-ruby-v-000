@@ -8,4 +8,6 @@ def primes(max_number)
     i = i + 1
   end
 
+  p integers
+  
 end
