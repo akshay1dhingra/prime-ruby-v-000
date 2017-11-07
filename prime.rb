@@ -5,14 +5,14 @@ def sieve(max)
   # Set both the first and second positions (i.e., 0 and 1) to nil, as they
   # aren't prime.
   primes[0] = primes[1] = nil
-  
+
   # Iterate through primes array
   counter = 0
   primes.each do |p|
     # Skip if nil
     next unless p
 
-    # Break if we are past the square root of the max value 
+    # Break if we are past the square root of the max value
     break if p*p > max
     counter += 1
     # Start at the square of the current number, and step through.
